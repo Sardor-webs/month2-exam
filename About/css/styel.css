@@ -1,0 +1,527 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  position: relative;
+  width: 1440px;
+  height: 96px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+header .menu_section {
+  position: absolute;
+  width: 1106px;
+  height: 53px;
+  left: 169px;
+  top: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .menu_section button {
+  width: 180px;
+  height: 53px;
+  background-color: #FCB72B;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 167% */
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+header .menu_section button:hover {
+  background-color: white;
+  color: #FCB72B;
+  border: 3px solid #FCB72B;
+}
+header .menu_section .nav_ul {
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-right: 480px;
+}
+header .menu_section .nav_ul .nav_li {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+}
+header .menu_section .nav_ul .nav_li a {
+  color: #939CAA;
+  text-decoration: none;
+}
+header .menu_section .nav_ul .nav_li a:hover {
+  color: #FCB72B;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.menu h1 {
+  position: absolute;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  /* identical to box height, or 100% */
+  letter-spacing: -2.5px;
+  margin-right: 900px;
+  color: #FFFFFF;
+}
+
+.first_moment {
+  height: 449.94px;
+  width: 1106;
+  margin: 200px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first_moment h1 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+.first_moment .text2 {
+  position: relative;
+  right: 200px;
+  margin-left: 100px;
+}
+.first_moment .text2 p {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  /* or 167% */
+  color: #939CAA;
+}
+.first_moment .text2 button {
+  width: 180px;
+  height: 53px;
+  background-color: #FCB72B;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 167% */
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  color: #FFFFFF;
+  position: relative;
+  top: 30px;
+}
+.first_moment .text2 button:hover {
+  background-color: white;
+  color: #FCB72B;
+  border: 3px solid #FCB72B;
+}
+.first_moment .moment1 {
+  position: relative;
+  left: 140px;
+  transition: 1s;
+  animation-name: First;
+  animation-fill-mode: forwards;
+  animation-timeline: 3s;
+  animation-duration: 2s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+.first_moment .moment1 img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.chiziq3 {
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 130px;
+}
+
+@keyframes First {
+  from {
+    left: 400px;
+    position: relative;
+  }
+  to {
+    right: 400px;
+  }
+}
+.second_moment {
+  height: 449.94px;
+  width: 1106;
+  margin: 200px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second_moment h1 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+.second_moment .text3 {
+  position: relative;
+  right: -120px;
+}
+.second_moment .text3 p {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  color: #939CAA;
+}
+.second_moment .text3 button {
+  width: 180px;
+  height: 53px;
+  background-color: #FCB72B;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 167% */
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  color: #FFFFFF;
+  position: relative;
+  top: 30px;
+}
+.second_moment .text3 button:hover {
+  background-color: white;
+  color: #FCB72B;
+  border: 3px solid #FCB72B;
+}
+.second_moment .moment2 {
+  position: relative;
+  left: -250px;
+  float: left;
+  animation-name: Second;
+  animation-duration: 2s;
+}
+.second_moment .moment2 img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.chiziq4 {
+  position: absolute;
+  margin-left: -870px;
+  margin-top: -100px;
+}
+
+@keyframes Second {
+  from {
+    position: relative;
+    left: -550px;
+    float: left;
+  }
+  to {
+    left: -250px;
+  }
+}
+.Sarlavha2 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* identical to box height, or 100% */
+  text-align: center;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.cards {
+  width: 1110px;
+  height: 608px;
+  margin: 0 auto;
+}
+.cards .width2 {
+  display: flex;
+  justify-content: space-around;
+}
+.cards .width2 h5 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+  text-align: center;
+  letter-spacing: -1.07143px;
+  margin-top: 20px;
+  color: #495567;
+}
+.cards .width2 p {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  text-align: center;
+  color: #939CAA;
+}
+
+.Sarlavha3 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* identical to box height, or 100% */
+  text-align: center;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.width3 {
+  width: 1110px;
+  height: 445px;
+  margin: 0 auto;
+}
+.width3 h1 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  letter-spacing: -1.78571px;
+  color: #495567;
+  position: relative;
+  top: 150px;
+}
+.width3 #accordionExample {
+  margin-left: 480px;
+  margin-top: 64px;
+}
+.width3 #accordionExample h2 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+.width3 #accordionExample p {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  color: #495567;
+}
+.width3 #accordionExample #first {
+  width: 730px;
+  height: 92px;
+  background: #F2F5F9;
+}
+.width3 #accordionExample #second {
+  width: 730px;
+  height: 92px;
+  background: #F2F5F9;
+}
+.width3 #accordionExample #third {
+  width: 730px;
+  height: 92px;
+  background: #F2F5F9;
+}
+
+.width4 {
+  width: 1110px;
+  height: 445px;
+  margin: 0 auto;
+}
+.width4 h1 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  letter-spacing: -1.78571px;
+  color: #495567;
+  position: relative;
+  top: 150px;
+}
+.width4 #accordionExample {
+  margin-left: 480px;
+  margin-top: 64px;
+}
+.width4 #accordionExample h2 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+.width4 #accordionExample p {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  color: #495567;
+}
+.width4 #accordionExample #first {
+  width: 730px;
+  height: 92px;
+  background: #F2F5F9;
+}
+.width4 #accordionExample #second {
+  width: 730px;
+  height: 92px;
+  background: #F2F5F9;
+}
+.width4 #accordionExample #third {
+  width: 730px;
+  height: 92px;
+  background: #F2F5F9;
+}
+
+footer {
+  width: 1440px;
+  height: 396px;
+  background-color: #495567;
+  margin: 0 auto;
+}
+footer .markets {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  margin-right: 400px;
+  position: relative;
+  top: 100px;
+}
+footer .markets .google {
+  width: 159px;
+  height: 56px;
+  background: #E5ECF4;
+  border-radius: 4px;
+}
+footer .markets .appstore {
+  width: 159px;
+  height: 56px;
+  background: #E5ECF4;
+  border-radius: 4px;
+}
+footer .width2 {
+  height: 100%;
+  width: 1300px;
+  margin: 0 auto;
+}
+footer .width2 img {
+  position: relative;
+  top: 53px;
+  left: 217px;
+  width: 1153px;
+}
+footer .width2 h1 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+  letter-spacing: -2.14286px;
+  color: #FFFFFF;
+  position: relative;
+  top: 135px;
+  left: 102px;
+}
+footer .ending1 {
+  width: 1440px;
+  background-color: #333A44;
+}
+footer .ending1 .ending2 {
+  background: #333A44;
+  width: 1106px;
+  height: 53px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .ending1 .ending2 .nav_ul {
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-right: 480px;
+}
+footer .ending1 .ending2 .nav_ul .nav_li {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+}
+footer .ending1 .ending2 .nav_ul .nav_li a {
+  color: #939CAA;
+  text-decoration: none;
+}
+footer .ending1 .ending2 .nav_ul .nav_li a:hover {
+  color: #FCB72B;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.icons:hover {
+  color: #FCB72B;
+}/*# sourceMappingURL=styel.css.map */
